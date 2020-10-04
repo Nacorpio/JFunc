@@ -49,41 +49,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompoundAccessorEventArgs.cs" />
-    <Compile Include="CompoundAddedEventArgs.cs" />
-    <Compile Include="CompoundRemovedEventArgs.cs" />
-    <Compile Include="ICompoundAccessor.cs" />
-    <Compile Include="INClass.cs" />
-    <Compile Include="INCompound.cs" />
-    <Compile Include="INItem.cs" />
-    <Compile Include="INItemCollection.cs" />
-    <Compile Include="INObject.cs" />
-    <Compile Include="INProperty.cs" />
-    <Compile Include="ILocatable.cs" />
-    <Compile Include="INamed.cs" />
-    <Compile Include="IPropertyAccessor.cs" />
-    <Compile Include="IReadOnlyCompoundAccessor.cs" />
-    <Compile Include="IReadOnlyNItemCollection.cs" />
-    <Compile Include="IReadOnlyPropertyAccessor.cs" />
-    <Compile Include="ItemAddedEventArgs.cs" />
-    <Compile Include="ItemCollectionEventArgs.cs" />
-    <Compile Include="ItemRemovedEventArgs.cs" />
-    <Compile Include="NClass.cs" />
-    <Compile Include="NCompound.cs" />
-    <Compile Include="NItem.cs" />
-    <Compile Include="NItemCollection.cs" />
-    <Compile Include="NObject.cs" />
-    <Compile Include="NProperty.cs" />
+    <Compile Include="Common\Data\EventArgs\CompoundAccessorEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\CompoundAddedEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\CompoundRemovedEventArgs.cs" />
+    <Compile Include="API\Collections\Accessors\ICompoundAccessor.cs" />
+    <Compile Include="API\Objects\INClass.cs" />
+    <Compile Include="API\Objects\INCompound.cs" />
+    <Compile Include="API\Objects\INItem.cs" />
+    <Compile Include="API\Collections\INItemCollection.cs" />
+    <Compile Include="API\Objects\INObject.cs" />
+    <Compile Include="API\Objects\INProperty.cs" />
+    <Compile Include="API\ILocatable.cs" />
+    <Compile Include="API\INamed.cs" />
+    <Compile Include="API\Collections\Accessors\IPropertyAccessor.cs" />
+    <Compile Include="API\Collections\Accessors\IReadOnlyCompoundAccessor.cs" />
+    <Compile Include="API\Collections\IReadOnlyNItemCollection.cs" />
+    <Compile Include="API\Collections\Accessors\IReadOnlyPropertyAccessor.cs" />
+    <Compile Include="Common\Data\EventArgs\ItemAddedEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\ItemCollectionEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\ItemRemovedEventArgs.cs" />
+    <Compile Include="Common\Objects\NClass.cs" />
+    <Compile Include="Common\Objects\NCompound.cs" />
+    <Compile Include="Common\Objects\NItem.cs" />
+    <Compile Include="Common\Collections\NItemCollection.cs" />
+    <Compile Include="Common\Objects\NObject.cs" />
+    <Compile Include="Common\Objects\NProperty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PropertyAccessorEventArgs.cs" />
-    <Compile Include="PropertyAddedEventArgs.cs" />
-    <Compile Include="PropertyRemovedEventArgs.cs" />
-    <Compile Include="PropertyValueChangedEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\PropertyAccessorEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\PropertyAddedEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\PropertyRemovedEventArgs.cs" />
+    <Compile Include="Common\Data\EventArgs\PropertyValueChangedEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
